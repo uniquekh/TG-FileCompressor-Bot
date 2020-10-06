@@ -1,14 +1,10 @@
 ---
 
-## Video Compressor Bot
-
-## HOW TO DEPLOY YOUTUBE TUTORIAL
-
-<a href="https://youtu.be/YEwAN3iTGyE"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+# Video Compressor Bot
 
 #### The Easy Way
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/VidComBot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bughunter0/TG-FileCompressor-Bot)
 
 #### The Hard Way
 
@@ -32,7 +28,7 @@ class Development(Config):
   API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
   TG_BOT_TOKEN = ""
   AUTH_USERS = [
-    7351948
+    Tgid
   ]
 ```
 
@@ -42,7 +38,7 @@ class Development(Config):
 start - Checking bot live.
 compress - To compress the video.
 cancel - Stop the process.
-log - Get log
+getlog - Get log
 help - To know about bot
 ```
 ## CREDITS
