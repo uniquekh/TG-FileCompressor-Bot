@@ -18,16 +18,16 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "This is a Telegram Video Compress Bot \n\n\n Only Works in @TG_FileCompression_Group \n \n\nSupport Group : @bughunterbots\n\n Join https://t.me/TG_FileCompression_Group"
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading 📥 \n"
+    DOWNLOAD_START = "Downloading The file \n"
     
-    UPLOAD_START = "📤 Uploading 📤 \n"
+    UPLOAD_START = " Uploading File to TG \n"
     
     COMPRESS_START = "📀 Trying to compress... 📀"
     
@@ -35,7 +35,7 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}"
+    COMPRESS_SUCCESS = "<b> @TgFileCompressorBot™ \n © @BugHunterBots</b>"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
 
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "Join @TG_FileCompression_Group For Compressing File\n Compression Take 10 -20 Minutes"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
