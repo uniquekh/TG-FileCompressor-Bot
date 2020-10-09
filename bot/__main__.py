@@ -93,7 +93,8 @@ if __name__ == "__main__" :
     
     # Telegram command to upload LOG files
     upload_log_f_handler = MessageHandler(
-        upload_log_file
+        upload_log_file,
+        filters=Filters.command([Command.UPLOAD_LOG_FILE])
     )
     app.add_handler(upload_log_f_handler)
     
