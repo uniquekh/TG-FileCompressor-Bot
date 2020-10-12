@@ -14,8 +14,7 @@ LOGGER = logging.getLogger(__name__)
 import os, time, asyncio, json
 from bot.localisation import Localisation
 from bot import (
-  DOWNLOAD_LOCATION, 
-  AUTH_USERS
+  DOWNLOAD_LOCATION
 )
 from bot.helper_funcs.ffmpeg import (
   convert_video,
