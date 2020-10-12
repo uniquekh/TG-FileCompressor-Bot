@@ -39,10 +39,6 @@ from bot.helper_funcs.utils import(
         
 async def incoming_start_message_f(bot, update):
     """/start command"""
-    if update.from_user.id not in AUTH_USERS:
-        await update.message.delete()
-        return
-    # LOGGER.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
         text=Localisation.START_TEXT,
@@ -51,13 +47,7 @@ async def incoming_start_message_f(bot, update):
     
 async def incoming_compress_message_f(bot, update):
   """/compress command"""
-    
-  if update.from_user.id not in AUTH_USERS:
-    try:
-      await update.message.delete()
-    except:
-      pass
-    return
+   
   if update.reply_to_message is None:
     try:
       await bot.send_message(
