@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "This is a Telegram Video Compress Bot \n\n\n Only Works in @TG_FileCompression_Group \n \n\nSupport Group : @bughunterbots\n\n Join https://t.me/TG_FileCompression_Group"
+    START_TEXT = "HELLO!\n\nThis is a Telegram Video Compress Bot \n\nPlease sent me any Telegram big video I Will compress it to a small video \n\n/help for more details... \n\nSupport Group :@AI_BOT_HELP "
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -33,9 +33,9 @@ class Localisation:
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "<b> @TgFileCompressorBot™ \n © @BugHunterBots</b>"
+    COMPRESS_SUCCESS = file_name + "<b>\n\n © @video_compresser_byAI_bot</b>"
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
 
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Join @TG_FileCompression_Group For Compressing File\n Compression Take 10 -20 Minutes"
+        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- /compress 50 \n Compression Take 10 -20 Minutes"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
